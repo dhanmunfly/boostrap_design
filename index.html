@@ -16,18 +16,23 @@
             padding-right: 10px;
             padding-left: 10px;
         }
-        a.arrow {
-            align-content: right;
-            position: absolute;
-            left: 0px;
-            width: 300px;
-  border: 3px solid #73AD21;
-  padding: 10px;
+        .card{
+          position: relative;;
+        }
+        a{
+           
+            position:absolute;
+            border-radius: 15px 0px 0px 0px !important;
+            right:0;
+            bottom:0; 
+            border: 3px solid #73AD21;
         }
         hr{
             border: 1.5px solid green;
-           border-radius: 5px;
-           width: 10%
+           width: 10%;
+           padding: 1%;
+            border: none;
+            border-top: medium double rgb(29, 134, 73);
         }
         input {
   padding-right: 10px;
@@ -50,32 +55,36 @@
      <div class="row">
          <div class="col-sm-4">
             <div class="card shadow" >
-                <img class="card-img-top" src="/images/test.jpeg" alt="Card image" style="width:100%">
+                <img class="card-img-top" src="/images/second.jpeg" alt="Card image" style="width:100%">
                 <div class="card-body">
                   <h4 class="card-title">Blog Title Hero</h4>
                   <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                  <a href="#" class="btn btn-success float-right" class="arrow">></a>
+                  <small style="font-weight: lighter;">january 01,2019</small>
+                  <a href="#" class="btn btn-success float-right" class="rounded-0" class="arrow">></a>
                 </div>
               </div>
               <br>
          </div>
          <div class="col-sm-4">
               <div class="card shadow" >
-            <img class="card-img-top" src="/images/test.jpeg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="/images/second.jpeg" alt="Card image" style="width:100%">
             <div class="card-body">
               <h4 class="card-title">Blog Title Hero</h4>
               <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-              <a href="#" class="btn btn-success float-right " class="arrow">></a>
+              <small style="font-weight: lighter;">january 01,2019</small>
+              <a href="#" class="btn btn-success float-right" class="rounded-0" class="arrow">></a>
             </div>
           </div>
+          <br>
           </div>
          <div class="col-sm-4">
                 <div class="card shadow">
-                        <img class="card-img-top" src="/images/test.jpeg" alt="Card image" style="width:100%">
+                        <img class="card-img-top" src="/images/second.jpeg" alt="Card image" style="width:100%">
                         <div class="card-body">
                           <h4 class="card-title">Blog Title Hero</h4>
                           <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                          <a href="#" class="btn btn-success align-self-end float-right" class="arrow">></a>
+                          <small style="font-weight: lighter;">january 01,2019</small>
+                          <a href="#" class="btn btn-success" class="rounded-0" class="arrow">></a>
                         </div>
                       </div>
                       <br>
@@ -89,7 +98,9 @@
     <div class="col-sm-4">
             <div class="card bg-primary text-white card text-center shadow">
                     <div class="card-body " style="height: 13rem;">
-                     <div class="d-flex justify-content-center"><h4>Email & Phone</h4></div> 
+                      <br>
+                     <div class="d-flex justify-content-center font-weight-light"><h4>Email & Phone</h4></div> 
+                     <div>
                      <br>
                        <div class="align-self-center">
                             <ul class="list-inline">
@@ -100,10 +111,10 @@
                         <div class="align-self-center">
                                 <ul class="list-inline">
                                         <li class="list-inline-item"><i class="fa fa-phone fa-sm;"></i></li>
-                                        <li class="list-inline-item">+82-78-87-87</li>
+                                        <li class="list-inline-item">+820-783-873-873</li>
                                 </ul>
                         </div>
-                                              
+                        </div>                     
                     </div>
                     
           </div>
@@ -112,11 +123,12 @@
     <div class="col-sm-4">
             <div class="card bg-primary text-white card text-center shadow">
             
-                    <div class="card-body" style="height: 13rem;">
-                      <h4 class="d-flex justify-content-center">Address</h4>
+                    <div class="card-body" style="height:13rem;">
                       <br>
+                      <h4 class="d-flex justify-content-center">Address</h4>
+                    
                       <p class="d-flex justify-content-center mt-4">New york, new memet ,4040-road block</p>
-
+                      <p>australia</p>
                     </div>
                   </div>
                   <br>
@@ -124,6 +136,7 @@
     <div class="col-sm-4">
             <div class="card bg-primary text-white box-shadow text-center shadow">
                     <div class="card-body" style="height: 13rem;">
+                      <br>
                       <h4 class="d-flex justify-content-center">Social</h4>
                       <br>
                       <div class="d-flex mt-4 justify-content-around">
@@ -193,7 +206,7 @@
                                               max-width: none!important;
                                               background: none!important
                                           }
-                                      </style><a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">Tutorialspoint.com</a></div>
+                                      </style></div>
                                   <script type="text/javascript">
                                       function init_map() {
                                           var myOptions = {
@@ -217,9 +230,9 @@
                             google.maps.event.addDomListener(window, 'load', init_map);
                         </script>
                     </div>
-</div>
+              </div>
 
-</div>
-</div>
+          </div>
+     </div>
 </body>
 </html>
